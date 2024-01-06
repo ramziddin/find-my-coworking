@@ -1,3 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Coworking() {
-  return <div>Coworking page</div>
+  const { id } = useParams();
+
+  return <div>You're viewing coworking #{id}</div>
 }

@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: <Index />,
   },
   {
-    path: "/coworking",
+    path: "/coworking/:id",
     element: <Coworking />,
   },
 ])
