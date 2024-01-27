@@ -1,3 +1,6 @@
 export default function Index() {
-  return <div>All coworkings page</div>
+  return <>
+    <h1>Hello, world</h1>
+    <p>All coworkings page</p>
+  </>
 }
